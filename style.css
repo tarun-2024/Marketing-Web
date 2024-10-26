@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem 0 1.5rem;
+
+}
+
+nav a img {
+    width: 55.6px;
+    height: 53.3px
+}
+
+nav a h1 {
+    width: 154px;
+    height: 46px;
+    font-size: 38px;
+    text-align: center;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+    color: #000;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav ul li a button {
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid black;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(212, 180, 180, 0.833);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 5rem 0 5rem;
+}
+
+.main .left-main-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.left-main-content h1 {
+    font-size: 64px;
+}
+
+.left-main-content p {
+    font-size: 27px;
+}
+
+.left-main-content a button {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0 #a4979796;
+}
+
+.left-main-content a {
+    width: 305px;
+}
+
+/* .right-main-content img {
+    width: 595px;
+    height: 515px;
+} */
+
+.patners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin: 2rem 0;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 5rem 3rem 5rem;
+    margin-top: 5rem;
+
+}
+
+.services h1 {
+    font-family: "Inter", sans-serif;
+    width: 203px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADFF2F;
+    ;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.services p {
+    width: 670px;
+    height: 42px;
+    font-size: 21px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    padding: 3rem 2rem 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 6rem;
+    place-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.5rem 2.5rem;
+    padding-top: 3rem;
+    border-radius: 40px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 15px 8px 0px #000;
+}
+
+.left-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 6rem; */
+    padding-left: 1rem;
+}
+
+.upper-content {
+    width: 200px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: #ADFF2F;
+    border-radius: 20px;
+    padding: 2px 0 0 10px;
+}
+
+.lower-content {
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+.lower-content p {
+    font-weight: 700;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin: 8rem;
+    padding: 0.5rem 3rem 0.5rem 8rem;
+    border-radius: 40px;
+    gap: 12rem;
+}
+
+.contactus .left-contact-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.left-contact-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.left-contact-content p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.left-contact-content a button {
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #9c9292b4;
+}
+
+.left-contact-content a {
+    width: 305px;
+}
+
+.right-contact-content img {
+    width: 369px;
+    height: 382px;
+}
+
+
+
+.casestudy {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 0.5rem 3rem 0.5rem 8rem;
+    margin-top: 5rem;
+
+}
+
+.casestudy h1 {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADFF2F;
+    ;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+.casestudy p {
+    width: 670px;
+    height: 42px;
+    font-size: 21px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin: 5rem 8rem;
+    padding: 4rem 5rem 3rem 5rem;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.foot-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+    /* border-right: 2px solid white; */
+}
+
+.foot-div p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.footimg {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #ADFF2F;
+
+}
+
+.footimg span {
+    font-size: 20px;
+    font-weight: 700;
+}
